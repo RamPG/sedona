@@ -1,0 +1,25 @@
+.intro {
+  margin-top: -15px;
+}
+
+.intro__inner {
+  position: relative;
+
+  background: url("../../img/background-intro.png") no-repeat;
+  min-height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro__inner::after {
+  position: absolute;
+  content: "";
+
+  background-image: url("../../img/intro-decorate.png");
+
+  width: 1202px;
+  height: 59px;
+  top: 450px;
+}

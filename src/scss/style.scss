@@ -1,6 +1,5 @@
-body {
-  background-color: red;
-}
-.test {
-  background-color: white;
-}
+@import "globals/page";
+@import "variables";
+@import "globals/fonts";
+@import "blocks/navigation";
+@import "blocks/intro";

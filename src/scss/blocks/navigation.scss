@@ -1,0 +1,29 @@
+.navigation__inner {
+  position: relative;
+  z-index: 10;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "PT Sans Bold", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navigation__item {
+  padding: 22px 72px;
+}
+
+.navigation__item:hover {
+  color: #81b3d2;
+}
+
+.navigation__item:active {
+  opacity: 0.3;
+}
+
+.logotype {
+  padding: 0 52px;
+}
