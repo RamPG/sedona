@@ -1,0 +1,19 @@
+.reason-main {
+  .reason__content {
+    width: calc(100% * 1 / 3);
+    height: 256px;
+    padding-top: 45px;
+
+    color: #ffffff;
+    background-color: #81b3d2;
+  }
+}
+
+.reason__content,
+.reason__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}

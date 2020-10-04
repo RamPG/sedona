@@ -1,8 +1,9 @@
 .intro {
   margin-top: -15px;
+  margin-bottom: 55px;
 }
 
-.intro__inner {
+.intro__photo {
   position: relative;
 
   background: url("../../img/background-intro.png") no-repeat;
@@ -13,7 +14,7 @@
   align-items: center;
 }
 
-.intro__inner::after {
+.intro__photo::after {
   position: absolute;
   content: "";
 
@@ -22,4 +23,20 @@
   width: 1202px;
   height: 59px;
   top: 450px;
+}
+
+.intro__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 60px;
+}
+
+.intro__header {
+  text-align: center;
+}
+
+.intro__description {
+  margin-top: 30px;
 }

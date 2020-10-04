@@ -1,0 +1,38 @@
+.search__inner {
+  margin-top: 55px;
+  margin-bottom: 65px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.search__header {
+  font-size: 30px;
+}
+
+.search__description {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.search__button {
+  padding: 20px 136px;
+  background-color: #81b3d2;
+  border: none;
+
+  font-size: 21px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.search__button:hover {
+  background-color: #669ec0;
+}
+
+.search__button:active {
+  background-color: #5496bd;
+  opacity: 0.3;
+}
